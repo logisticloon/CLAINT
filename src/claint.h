@@ -1,13 +1,15 @@
 #ifndef _CLAINT_
 #define _CLAINT_
 #include <stdio.h>
-#define MAXLEN 100
+#include <stdlib.h>
+#include <string.h>
+#define MAXLEN 2000
 
-char * initializeCLAINT(){  
-}
-int compareINTALS(const char * intal_a, const char * intal_b){
-}
+char * initializeCLAINT();
+void printCLAINT( char * claint_a);
+int compareCLAINTS( char * intal_a,  char * intal_b);
+char * addCLAINTS( char * intal_a, char * intal_b);
 
-
+void dummy();
 
 #endif
